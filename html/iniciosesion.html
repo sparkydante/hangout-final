@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HangOut - Iniciar Sesión</title>
+    <link rel="stylesheet" href="../css/iniciosesion.css">
+</head>
+<body>
+    <nav class="topheader">
+        <div class="container">
+            <ul class="menu-horizontal">
+                <div class="logo">
+                    <img height="auto" width="90" src="../imagenes/hangout_logo.png" alt="Hang Out">
+                </div>
+                <li class="nombre">
+                    <a href="#">HangOut</a>
+                </li>
+                <li class="Casa">
+                    <a href="../html/index.html">Home</a>
+                </li>
+                <li class="about-us">
+                    <a href="#">Foros</a>
+                </li>
+                <li class="contacto_op">
+                    <a href="../html/agregarlugar.html">Agregar Un Lugar</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="form-container">
+        <h2>Iniciar Sesión</h2>
+        <form name="iniciar" method="post" action="">
+            <label for="fgmail">Correo:</label>
+            <input type="email" id="fgmail" name="fgmail" value="" required><br>
+            <label for="fcontra">Contraseña:</label>
+            <input type="password" id="fcontra" name="fcontra" value="" required><br>
+            <p><input type="submit" class="btn" value="Enviar"/></p><br><br>
+            <p>Todavía no tiene una cuenta? <a href="../html/registro.html">Regístrese aquí :D</a></p>
+        </form>
+    </div>
+</body>
+</html>

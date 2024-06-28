@@ -1,0 +1,47 @@
+
+<!--FORMULARIO-->
+<div class="forum-section">
+    <h3>FORO DE CONSULTAS</h3>
+    <textarea id="consulta" rows="4" cols="50" placeholder="Escriba su consulta aquí"></textarea>
+    <button onclick="agregarConsulta()">Enviar Consulta</button>
+    <div id="preguntas-frecuentes">
+        <div class="pregunta">
+            <h3>¿Cuál es el horario de atención?</h3>
+            <p>Nuestro horario de atención es de lunes a viernes de 9:00 am a 5:00 pm.</p>
+        </div>
+        <div class="pregunta">
+            <h3>¿Cómo puedo contactarlos?</h3>
+            <p>Puede contactarnos llamando al número 123-456-7890 o enviando un correo electrónico a info@example.com.</p>
+        </div>
+        <div class="pregunta">
+            <h3>¿Cuánto tiempo tardan en responder?</h3>
+            <p>Nos esforzamos por responder todas las consultas dentro de las 24 horas siguientes.</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    function agregarConsulta() {
+        var consulta = document.getElementById('consulta').value;
+        if (consulta.trim() !== '') {
+            var preguntaDiv = document.createElement('div');
+            preguntaDiv.classList.add('pregunta');
+
+            var preguntaTitulo = document.createElement('h3');
+            preguntaTitulo.textContent = 'Nueva Consulta';
+
+            var preguntaTexto = document.createElement('p');
+            preguntaTexto.textContent = consulta;
+
+            preguntaDiv.appendChild(preguntaTitulo);
+            preguntaDiv.appendChild(preguntaTexto);
+
+            var preguntasFrecuentes = document.getElementById('preguntas-frecuentes');
+            preguntasFrecuentes.appendChild(preguntaDiv);
+
+            document.getElementById('consulta').value = '';
+        } else {
+            alert('Por favor ingrese una consulta.');
+        }
+    }
+</script>

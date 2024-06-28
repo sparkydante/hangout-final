@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="../css/registro.css">
+</head>
+<body>
+    <nav class="topheader">
+        <div class="container">
+            <ul class="menu-horizontal">
+                <li class="logo">
+                    <img height="auto" width="90" src="../imagenes/hangout_logo.png" alt="Hang Out">
+                </li>
+                <li class="nombre">
+                    <a href="#">HangOut</a>
+                </li>
+                <li class="Casa">
+                    <a href="../html/index.html">Home</a>
+                </li>
+                <li class="about-us">
+                    <a href="#">Foros</a>
+                </li>
+                <li class="contacto_op">
+                    <a href="../html/agregarlugar.html">Agregar Un Lugar</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="form-container">
+        <h2>Registrarse</h2>
+        <form name="registrar" method="post" action="">
+            <label for="fname">Nombre:</label>
+            <input type="text" id="fname" name="fname" required><br>
+            <label for="flast">Apellido:</label>
+            <input type="text" id="flast" name="flast" required><br>
+            <label for="fgmail">Correo:</label>
+            <input type="email" id="fgmail" name="fgmail" required><br>
+            <label for="fcontra">ContraseÃ±a:</label>
+            <input type="password" id="fcontra" name="fcontra" required><br>
+            <p><input type="submit" class="btn" value="Enviar"/></p>
+        </form>
+    </div>
+
+</body>
+</html>
