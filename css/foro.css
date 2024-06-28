@@ -1,0 +1,129 @@
+h1{
+    color:#02213E;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+
+h2{
+    color:#02213E;
+    font-size: 20px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+h3{
+    color:rgba(52,148,81,255);
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+    color:rgb(0, 0, 0);
+    font-family: "Exo 2", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+body{
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: white;
+}
+
+/*
+nav{
+    max-width: 900px;
+    margin: auto;
+    background-color: rgba(144, 29, 29, 0.81);
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+*/
+
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    background-color:#02213E;
+    margin: 0;
+    padding: 0;
+    position: fixed; /*para que el menu siempre aparezca*/ 
+    width: 100%;
+    top: 0px;
+    padding: 0 20px;
+}
+
+.menu-horizontal .logo{
+    margin-right: 20px; /* Espacio entre el logo y el resto del menú */
+}
+
+.menu-horizontal .logo img {
+    display: block;
+}
+
+.menu-horizontal .nombre {
+    text-decoration: none;
+    color: #ffffff;
+    pointer-events: none; /*no q no sea pueda clickear*/
+    font-size: 30px;
+    font-weight: bold;
+    /*margin: 0px -35px;*/
+    margin-right: auto; /* Empuja el resto del menú hacia la derecha */
+}
+
+.menu-horizontal .Home, .Foros, .AgregarLugar{
+    font-size: 20px;
+    padding: 9px;
+}
+
+.menu-horizontal > li {
+    margin: 0 10px; /* Espacio entre los elementos del menú */
+}
+
+.menu-horizontal >li >a{
+    display: block;
+    padding: 15px 25px;
+    color: #f7f7f7;
+    text-decoration: none;
+}
+
+.menu-horizontal >li:hover{
+    background-color: rgba(52,148,81,255);
+}
+
+
+/*FORO*/
+
+.forum-section {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.pregunta {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+.pregunta h3 {
+    margin-top: 0;
+}
+
+.pregunta p {
+    margin-bottom: 0;
+}

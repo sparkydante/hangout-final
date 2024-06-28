@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+}
+
+.topheader {
+    background-color: #02213E;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.topheader .menu-horizontal {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    list-style: none;
+    margin: 0;
+}
+
+.topheader .menu-horizontal .logo {
+    margin-right: 20px;
+}
+
+.topheader .menu-horizontal .logo img {
+    display: block;
+}
+
+.topheader .menu-horizontal .nombre {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.topheader .menu-horizontal li {
+    margin: 0 10px;
+}
+
+.topheader .menu-horizontal li a {
+    display: block;
+    padding: 15px 25px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.topheader .menu-horizontal li:hover {
+    background-color: #fcde5a;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+    color: #02213E;
+    margin-bottom: 20px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form-container input[type="text"],
+.form-container textarea,
+.form-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-container input[type="submit"] {
+    background-color: #02213E;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #FCCF3A;
+}
+
+.form-container p {
+    font-size: 14px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.form-container p a {
+    color: #02213E;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form-container p a:hover {
+    text-decoration: underline;
+}

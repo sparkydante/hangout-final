@@ -1,0 +1,56 @@
+.container {
+    margin: 0 auto;
+}
+
+.fulltexto {
+    text-align: center;
+    margin: 0 auto; 
+    padding-top: 50px;
+}
+
+
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.fulltexto p {
+    line-height: 1.6;
+}
+
+.image-pyramid {
+    text-align: center;
+}
+
+.image-pyramid .top-image img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.image-pyramid .middle-images img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.middle-images img {
+    margin-right: 20px; /* Ajusta el margen derecho según tu preferencia */
+}
+
+.user-comments {
+    max-width: 800px; /* Ancho máximo del contenedor de comentarios */
+    margin: 0 auto; /* Auto-margen para centrar horizontalmente */
+    text-align: center; /* Centra el texto dentro del contenedor */
+    padding: 20px; /* Espacio interno para separar de otros elementos */
+}
+.user-comments .comment {
+    margin-bottom: 15px; /* Espacio entre comentarios */
+    padding: 10px; /* Espacio interno para cada comentario */
+    background-color: #f0f0f0; /* Color de fondo del comentario */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 0 5px rgba(0,0,0,0.1); /* Sombra ligera */
+}
+

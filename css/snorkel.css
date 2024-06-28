@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+h1{
+    color:#02213E;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+
+h2{
+    color:#02213E;
+    font-size: 20px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+h3{
+    color:rgba(52,148,81,255);
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+    color:rgb(0, 0, 0);
+    font-family: "Exo 2", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+body{
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: white;
+}
+
+/*
+nav{
+    max-width: 900px;
+    margin: auto;
+    background-color: rgba(144, 29, 29, 0.81);
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+*/
+
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    background-color:#02213E;
+    margin: 0;
+    padding: 0;
+    position: fixed; /*para que el menu siempre aparezca*/ 
+    width: 100%;
+    top: 0px;
+    padding: 0 20px;
+}
+
+.menu-horizontal .logo{
+    margin-right: 20px; /* Espacio entre el logo y el resto del menú */
+}
+
+.menu-horizontal .logo img {
+    display: block;
+}
+
+.menu-horizontal .nombre {
+    text-decoration: none;
+    color: #ffffff;
+    pointer-events: none; /*no q no sea pueda clickear*/
+    font-size: 30px;
+    font-weight: bold;
+    /*margin: 0px -35px;*/
+    margin-right: auto; /* Empuja el resto del menú hacia la derecha */
+}
+
+.menu-horizontal .Home, .Foros, .AgregarLugar{
+    font-size: 20px;
+    padding: 9px;
+}
+
+.menu-horizontal > li {
+    margin: 0 10px; /* Espacio entre los elementos del menú */
+}
+
+.menu-horizontal >li >a{
+    display: block;
+    padding: 15px 25px;
+    color: #f7f7f7;
+    text-decoration: none;
+}
+
+.menu-horizontal >li:hover{
+    background-color: rgba(52,148,81,255);
+}
+
+.details-section h2{
+    text-align: center;
+    display: flex;
+    color: rgb(77, 77, 77);
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.details-section img{
+    border: 1.5px solid #FCCF3A;
+    object-fit: cover;
+    background-size:auto;
+    margin-left:750px;
+    box-shadow: 0 0 50px #FCCF3A;
+}
+
+.benefits-section h2{
+    display: flex;
+    color: #02213E;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 10px;
+}
+
+
+
+.user-comments {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+.user-comments .comment {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
